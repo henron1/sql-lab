@@ -2,9 +2,15 @@
 
 ## find all customers that live in London. Returns 6 records.
 
+SELECT  * FROM Customers where city = 'London';
+
 ## find all customers with postal code 1010. Returns 3 customers.
 
+SELECT  * FROM Customers where postalCode = '1010';
+
 ## find the phone number for the supplier with the id 11. Should be (010) 9984510.
+
+SELECT  phone FROM suppliers where supplierid = '11';
 
 ## list orders descending by the order date. The order with date 1997-02-12 should be at the top.
 
